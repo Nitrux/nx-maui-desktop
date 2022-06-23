@@ -13,7 +13,7 @@ git_commit=$(git rev-parse --short HEAD)
 	"Priority: optional" \
 	"Homepage: https://nxos.org" \
 	"Package: nx-maui-desktop-wayland" \
-	"Version: 0.0.1-$git_commit" \
+	"Version: 0.0.2-$git_commit" \
 	"Maintainer: Uri Herrera <uri_herrera@nxos.org>" \
 	"Depends: $deps" \
 	"Conflicts: nx-desktop, nx-desktop-legacy, nx-desktop-minimal, nx-desktop-legacy-minimal, synaptic" \
