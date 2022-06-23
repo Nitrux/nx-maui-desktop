@@ -9,7 +9,7 @@ script:
 
 branches:
   only:
-    - main
+    - nx-maui-desktop-wayland
 
 notifications:
   email: false

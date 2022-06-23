@@ -1,162 +1,22 @@
 # Comments start with a '#'.
 # Empty lines are ignored.
 
-#    = Nitrux OS CORE =
+#    = Maui Desktop =
 
-nitrux-minimal-legacy
-nitrux-standard-legacy
-nitrux-hardware-drivers-legacy
+nx-maui-desktop
 
-#    = Network Services =
+#     == Plasma Wayland ==
 
-dnsmasq
-libnl-3-200
-libnl-genl-3-200
-libnl-route-3-200
-libpcsclite1
-openresolv
-wpasupplicant
-
-#    = Multimedia =
-
-alsa-utils
-gstreamer1.0-libav
-gstreamer1.0-plugins-base
-gstreamer1.0-plugins-good
-gstreamer1.0-plugins-ugly
-gstreamer1.0-pulseaudio
-gstreamer1.0-qt5
-libqt5multimedia5-plugins
-phonon4qt5
-phonon4qt5-backend-vlc
-qt5-image-formats-plugins
-
-#     == Plasma ==
-
-bluedevil
-bluez
-kio
-kio-extras
-plasma-nm
-plasma-pa
-polkit-kde-agent-1
-powerdevil
-
-#   = Other KDE or Qt Software =
-
-kio-fuse
-kio-gdrive
-qml-module-qmltermwidget
-qml-module-qt-labs-platform
-qml-module-qtquick-extras
-qml-module-qtquick-shapes
-qml-module-qtquick-xmllistmodel
-qml-module-qtwebview
-
-#    = NX Desktop Customization Layer =
-
-fonts-nx-desktop
-grub2-theme-nitrux
-luv-icon-theme
-nitrux-wallpapers-free
-nx-gtk-themes
-nx-kstyle-theme
-nx-maui-desktop-apps
-nx-maui-desktop-settings
-nx-plasma-look-and-feel
-nx-window-deco
-plymouth-theme-nitrux
-sddm-config
-
-#    = Locales =
-#   == Unless requested use English by default ==
-
-language-pack-en
-language-pack-en-base
-language-pack-es
-language-pack-es-base
-
-#    = Supporting bits =
-
-accountsservice
-acpi-support
-acpid
-amd64-microcode
-apparmor-profiles
-apparmor-profiles-extra
-apparmor-utils
-avahi-daemon
-coreutils
-cups-pk-helper
-desktop-file-utils
-firejail
-firejail-profiles
-fonts-arphic-ukai
-fonts-arphic-uming
-fonts-freefont-ttf
-fonts-ipafont-gothic
-fonts-ipafont-mincho
-fonts-liberation
-fonts-opensymbol
-fonts-powerline
-fonts-unfonts-core
-fwupd
-ghostscript-x
-gnome-keyring
-gnupg-agent
-graphviz
-gtk2-engines-murrine
-gtk3-engines-breeze
-haveged
-ideviceinstaller
-intel-microcode
-iucode-tool
-laptop-detect
-libavahi-glib1
-libdbus-glib-1-2
-libdbusmenu-gtk3-4
-libexiv2-27
-libkf5dbusaddons-bin
-libkf5kdelibs4support5-bin
-libnotify-bin
-libplist3
-libstartup-notification0
-libxvmc1
-libzstd-dev
-libzstd1
-mscompress
-packagekit-tools
-pm-utils
-policykit-desktop-privileges
-powerline
-preload
-pulseaudio-module-bluetooth
-python-setuptools
-python3-dbus
-python3-plist
-python3-setproctitle
-python3-xlib
-qt5-gtk-platformtheme
-qttranslations5-l10n
-rfkill
-rng-tools
-rsyslog
-sbsigntool
-secureboot-db
-ssh-askpass
-system-config-printer-common
-system-config-printer-udev
-tlp
-tlp-rdw
-ubuntu-drivers-common
-upower
-usb-modeswitch
-wireless-tools
-xdg-user-dirs
-xdg-utils
-zstd
-
-#    = XORG =
-
+kwayland-integration
+libqt5waylandclient5
+libqt5waylandcompositor5
+qtwayland5
+xwayland
 
 #    = Wayland =
+
+libwayland-client++0
+libwayland-client-extra++0
+libwayland-cursor++0
+libwayland-egl++0
+libwayland-egl1-mesa
